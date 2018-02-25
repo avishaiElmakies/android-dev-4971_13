@@ -5,8 +5,8 @@ public abstract class Person {
 	public static int counter=0;
 	private int age;
 	private String fullName;
-	address a;
-	public Person(int age, String fullName, address a) {
+	Address a;
+	public Person(int age, String fullName, Address a) {
 		super();
 		person.setCounter();
 		this.age = age;
@@ -48,7 +48,7 @@ public abstract class Person {
 	public address getA() {
 		return a;
 	}
-	public void setA(address a) {
+	public void setA(Address a) {
 		this.a = a;
 	}
 }
