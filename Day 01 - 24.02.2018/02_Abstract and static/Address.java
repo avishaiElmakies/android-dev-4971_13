@@ -1,6 +1,6 @@
 package Basics;
 
-public class address {
+public class Address {
 
 	private int housenum;
 	private String city;
@@ -8,7 +8,7 @@ public class address {
 	
 	
 	
-	public address(int housenum, String city, String country) {
+	public Address(int housenum, String city, String country) {
 		super();
 		this.housenum = housenum;
 		this.city = city;
