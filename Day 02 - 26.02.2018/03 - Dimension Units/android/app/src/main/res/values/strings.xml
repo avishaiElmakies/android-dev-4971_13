@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="_1in">1in</string>
+    <string name="_25_4mm">25.4mm</string>
+    <string name="_72pt">72pt</string>
+    <string name="_320px">320px</string>
+    <string name="_160dp">160dp</string>
+    <string name="_160sp">160sp</string>
+</resources>
