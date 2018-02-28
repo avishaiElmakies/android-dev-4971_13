@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:useDefaultMargins="true"
+    android:columnCount="2"
+    android:rowCount="7">
+
+    <TextView
+        android:text="Registration Form"
+        android:textSize="25sp"
+        android:layout_columnSpan="2"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:text="Please fill up the following details:"
+        android:textSize="20sp"
+        android:layout_columnSpan="2" />
+
+    <TextView
+        android:text="First Name:" />
+
+    <EditText
+        android:width="200dp"
+        android:layout_gravity="right"/>
+
+    <TextView
+        android:text="Last Name:" />
+
+    <EditText
+        android:width="200dp"
+        android:layout_gravity="right"/>
+
+    <TextView
+        android:text="Email:" />
+
+    <EditText
+        android:width="200dp"
+        android:layout_gravity="right"/>
+
+    <TextView
+        android:text="Phone:" />
+
+    <EditText
+        android:width="200dp"
+        android:layout_gravity="right"/>
+
+    <Button
+        android:text="OK"
+        android:layout_gravity="right"
+        android:layout_column="1" />
+
+</GridLayout>
