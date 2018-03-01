@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="set_width">set width</string>
+    <string name="def_val">def val</string>
+</resources>
