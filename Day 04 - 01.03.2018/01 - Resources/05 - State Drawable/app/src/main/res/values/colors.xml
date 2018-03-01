@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="editText_background_regular">#fbff07</color>
+    <color name="editText_background_focused">#ccc14a</color>
+    <color name="checkBox_background_regular">#52de52</color>
+    <color name="checkBox_background_checked">#107010</color>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cute_kitten"
+        android:onClick="imageClicked" />
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitXY"
+        android:src="@drawable/cute_kitten"
+        android:onClick="imageClicked" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:id="@+id/textViewData" />
+
+    <!--
+     ImageView vs. ImageButton vs Button:
+
+     ImageView designed to present an image without being a button.
+     The user doesn't know it is clickable.
+
+     ImageButton designed to be a button presenting an image on it.
+     Thus the user can know it is clickable.
+
+     Button designed to be a button presenting a text.
+
+     Any of them can show image via src (ImageView and ImageButton)
+     or via background (all of them)
+
+     background vs. src:
+     Many visible components has background.
+     src is meant to be only for images (ImageView and ImageButton)
+     and contains the ability to scale and the ability to set alpha. -->
+
+</LinearLayout>

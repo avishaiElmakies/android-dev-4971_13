@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:viewportHeight="300"
+    android:viewportWidth="300"
+    android:width="300dp"
+    android:height="300dp">
+
+    <!-- Drawing a triangle by relative drawing to last points: -->
+    <!--<path-->
+        <!--android:fillColor="#a60c0c"-->
+        <!--android:pathData="m 100,100 l 100,100 -100,100 z" />-->
+
+    <!-- Drawing same triangle by absolute to canvas points: -->
+    <path
+        android:fillColor="#a60c0c"
+        android:pathData="M 100,100 L 200,200 100,300 Z" />
+
+    <!--
+    SVG - Scalable Vector Graphics.
+    Upper-Case = absolute to canvas.
+    lower-case = relative to last point.
+    M: move to (absolute to canvas).
+    m: move to (relative to last point).
+    L: line to (absolute to canvas).
+    l: line to (relative to last point).
+    Z or z: close the path.
+    H horizontal line to (absolute to canvas).
+    h horizontal line to (relative to last point).
+    V vertical line to (absolute to canvas).
+    v vertical line to (relative to last point).
+    C curve to (absolute to canvas).
+    c curve to (relative to last point).
+    S shorthand/smooth curve to (absolute to canvas).
+    s shorthand/smooth curve to (relative to last point).
+    Q quadratic bezier curve to (absolute to canvas).
+    q quadratic bezier curve to (relative to last point).
+    T shorthand/smooth quadratic bezier curve to (absolute to canvas).
+    t shorthand/smooth quadratic bezier curve to (relative to last point).
+    A elliptical arc (absolute to canvas).
+    a elliptical arc (relative to last point). -->
+
+</vector>

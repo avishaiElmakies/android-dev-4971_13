@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <ToggleButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toggleButtonSounds"
+        android:tag="true"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textOn="Turn Off Sounds"
+        android:textOff="Turn On Sounds"
+        android:textAllCaps="false"
+        android:onClick="toggleButton_onClick"
+        android:background="@drawable/transition_toggle_button" />
+
+    <ToggleButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toggleButtonMicrophone"
+        android:tag="true"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textOn="Turn Off Microphone"
+        android:textOff="Turn On Microphone"
+        android:textAllCaps="false"
+        android:onClick="toggleButton_onClick"
+        android:background="@drawable/transition_toggle_button" />
+
+    <ToggleButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toggleButtonHeadphones"
+        android:tag="true"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textOn="Turn Off Headphones"
+        android:textOff="Turn On Headphones"
+        android:textAllCaps="false"
+        android:onClick="toggleButton_onClick"
+        android:background="@drawable/transition_toggle_button" />
+
+</LinearLayout>

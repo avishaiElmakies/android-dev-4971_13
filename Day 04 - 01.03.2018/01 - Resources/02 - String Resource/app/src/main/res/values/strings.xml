@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Strings</string>
+
+    <string name="welcome">Welcome!</string>
+    <string name="show">Show</string>
+
+</resources>
