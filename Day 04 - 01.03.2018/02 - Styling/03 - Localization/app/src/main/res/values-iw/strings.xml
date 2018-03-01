@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">לוקליזציה</string>
-    <string name="user_details"><u>פרטי משתמש</u></string>
-    <string name="first_name">שם פרטי:</string>
-    <string name="last_name">שם משפחה:</string>
-    <string name="ok">אישור</string>
-</resources>
