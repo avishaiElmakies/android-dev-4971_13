@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Localization</string>
+    <string name="user_details"><u>User Details</u></string>
+    <string name="first_name">First name:</string>
+    <string name="last_name">Last name:</string>
+    <string name="ok">OK</string>
+</resources>
