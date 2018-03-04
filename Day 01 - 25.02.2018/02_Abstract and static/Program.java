@@ -47,6 +47,7 @@ public class Program {
 		
 		
 		System.out.println(Person.getCounter());
+
 		a=new Address(13,"telaviv","israel");		
 		nameSrc="Aviv";
 		schoolSrc="john bryce";
@@ -54,7 +55,7 @@ public class Program {
 		personArr[0]=new Student(18,nameSrc,a,80,schoolSrc);	
 		personArr[1]=new Student(22,"Elio",a,90,schoolSrc);
 		personArr[2]=new Manager(22,"Elio",a,"Google");
-		//personArr[2]=new person(22,"Elio",a);  --> compilation error (can not create an object from abstract class)
+		//personArr[2]=new Person(22,"Elio",a);  --> compilation error (can not create an object from abstract class)
 		personArr[4]=new Manager(22,"Elio",a,"Microsoft");
 		
 		a.setCity("Haifa");

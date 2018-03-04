@@ -5,13 +5,13 @@ public abstract class Person {
 	public static int counter=0;
 	private int age;
 	private String fullName;
-	Address a;
-	public Person(int age, String fullName, Address a) {
+	Address address;
+	public Person(int age, String fullName, Address address) {
 		super();
 		person.setCounter();
 		this.age = age;
 		this.fullName = fullName;
-		this.a = a;
+		this.Address=address;
 	}
 	
 	
@@ -45,10 +45,10 @@ public abstract class Person {
 	public void setFullName(String fullName) {
 		this.fullName = fullName;
 	}
-	public address getA() {
-		return a;
+	public address getAddress() {
+		return address;
 	}
-	public void setA(Address a) {
-		this.a = a;
+	public void setAddress(Address address) {
+		this.address = address;
 	}
 }
