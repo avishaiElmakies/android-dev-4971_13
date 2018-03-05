@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuItemSearch"
+        android:icon="@drawable/search"
+        android:title="Search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menuItemFavorites"
+        android:icon="@drawable/favorites"
+        android:title="Favorites"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menuItemSettings"
+        android:icon="@drawable/settings"
+        android:title="Settings"
+        app:showAsAction="always" />
+
+    <group
+        android:id="@+id/groupColors"
+        android:checkableBehavior="all">
+
+        <item
+            android:id="@+id/menuItemRed"
+            android:checked="true"
+            android:title="Red" />
+
+        <item
+            android:id="@+id/menuItemGreen"
+            android:title="Green" />
+
+        <item
+            android:id="@+id/menuItemBlue"
+            android:title="Blue" />
+
+    </group>
+
+    <item android:title="Send...">
+        <menu>
+            <item
+                android:id="@+id/menuItemEmail"
+                android:title="Email" />
+
+            <item
+                android:id="@+id/menuItemSms"
+                android:title="SMS" />
+
+            <item
+                android:id="@+id/menuItemWhatsApp"
+                android:title="WhatsApp" />
+        </menu>
+
+    </item>
+
+</menu>
