@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Spinner</string>
+
+    <string-array name="animals">
+        <item>Bunny</item>
+        <item>Duckling</item>
+        <item>Elephant</item>
+        <item>Owl</item>
+        <item>Puppy</item>
+    </string-array>
+
+</resources>
