@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_main">MainActivity</string>
+
+
+
+    <string name="defaultVal"> </string>
+    <string name="Gesture_events">Gesture events</string>
+    <string name="SignInButtonText">Log In</string>
+
+</resources>
